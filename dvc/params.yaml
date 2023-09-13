@@ -19,6 +19,6 @@ process:
   test_file: final_test.csv
 
 train:
-  n_est: 25
+  n_est: 35
 
 model_dir: model
