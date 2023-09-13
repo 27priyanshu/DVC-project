@@ -10,7 +10,7 @@ from sklearn import tree
 from dvclive import Live
 from matplotlib import pyplot as plt
 import yaml
-from sklearn import preprocessing 
+from sklearn import preprocessing  
 
 
 def evaluate(param_yaml_path, model, data, data_category, live):

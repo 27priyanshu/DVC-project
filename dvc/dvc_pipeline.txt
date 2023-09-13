@@ -1,4 +1,4 @@
-dvc stage add -n data_split -p data_source.local_path,base.random_state,split.split_ratio -d src/data_split.py -o data/split python src/data_split.py data/data.csv
+dvc stage add -n data_split -p data_source.local_path,base.random_state,split.split_ratio -d src/data_split.py -o data/split python src/data_split.py 
 
 
 dvc stage add -n data_processing -p split.dir,split.train_file,split.test_file,process.dir,process.train_file,process.test_file -d src/data_processing.py -d data/split -o data/processed python src/data_processing.py data/processed
