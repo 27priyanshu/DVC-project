@@ -5,7 +5,7 @@ base:
 
 data_source:
 # gs_path: https://raw.githubusercontent.com/TripathiAshutosh/dataset/main/red_wine.csv
-local_path: https://raw.githubusercontent.com/TripathiAshutosh/dataset/main/red_wine.csv
+  local_path: https://raw.githubusercontent.com/TripathiAshutosh/dataset/main/red_wine.csv
 
 split:
   dir: data/split

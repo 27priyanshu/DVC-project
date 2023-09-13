@@ -11,7 +11,7 @@ def data_processing(data_path):
     return processed_data
 
 if __name__ == "__main__":
-    param_yaml_path = "param.yaml"
+    param_yaml_path = "params.yaml"
     with open(param_yaml_path) as yaml_file:
         param_yaml = yaml.safe_load(yaml_file)
         

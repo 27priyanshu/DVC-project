@@ -39,4 +39,4 @@ def training (param_yaml_path):
 
 
 if __name__=="__main__":
-    training(param_yaml_path= "param.yaml")
+    training(param_yaml_path= "params.yaml")
