@@ -3,7 +3,7 @@
 
 Machine Learning (ML) is revolutionizing industries across the globe, but the journey from raw data to a deployed ML model can be complex and challenging. To streamline this process, we introduce an **End-to-End Machine Learning Pipeline Creation using Data Version Control (DVC)**.
 
-<img width="528" alt="image" src="https://github.com/27priyanshu/DVC-project/assets/95427620/3cea60f8-1ab1-499a-8a34-767faf3ae6bb">
+<img width="690" alt="image" src="https://github.com/27priyanshu/DVC-project/assets/95427620/251a635d-06d8-44a9-bdc2-29229821eb5f">
 
 
 ## Step 1: Data Split
