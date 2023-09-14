@@ -20,24 +20,30 @@ Once the model is trained, it's crucial to evaluate its performance. We use DVC 
 
  
 ### When n_estimator = 10
-<img width="448" alt="image" src="https://github.com/27priyanshu/DVC-project/assets/95427620/50d3ed36-6a22-4130-bdf9-ee1d8d639aee">
+<img width="588" alt="image" src="https://github.com/27priyanshu/DVC-project/assets/95427620/d2bb08a5-b4b5-4fca-95ba-ebe3e6cc3943">
+
 
 ### Plots for n_estimator = 10
-<img width="960" alt="image" src="https://github.com/27priyanshu/DVC-project/assets/95427620/2dda8099-97b1-4044-9ed7-4e9a998cb0d6">
+<img width="935" alt="image" src="https://github.com/27priyanshu/DVC-project/assets/95427620/c121c87e-0236-4edc-b142-5d1460ca1338">
 
-<img width="359" alt="image" src="https://github.com/27priyanshu/DVC-project/assets/95427620/ebcc15dc-ecf3-4cc6-ab16-68d19e26b99a">
 
-<img width="549" alt="image" src="https://github.com/27priyanshu/DVC-project/assets/95427620/ee5ff811-a2de-4fa2-86c1-34a7adb61d6f">
+<img width="334" alt="image" src="https://github.com/27priyanshu/DVC-project/assets/95427620/171ce854-08f6-488c-af00-859aaede89af">
+
+
+<img width="586" alt="image" src="https://github.com/27priyanshu/DVC-project/assets/95427620/0c4ec7f6-f77e-4aff-befd-db4ba74a094f">
+
+
 
 ### After changing n_estimaters to 35
-<img width="444" alt="image" src="https://github.com/27priyanshu/DVC-project/assets/95427620/79262f1e-bf24-4797-b860-c636f2035818">
+<img width="589" alt="image" src="https://github.com/27priyanshu/DVC-project/assets/95427620/29ca0c57-7d74-4358-b5bc-9a700197d936">
 
-### Difference btw Plots of n_estimator = 10 & 35
-<img width="374" alt="image" src="https://github.com/27priyanshu/DVC-project/assets/95427620/c3671ba4-fb62-46c1-ad01-aca37dc1ae61">
-<img width="959" alt="image" src="https://github.com/27priyanshu/DVC-project/assets/95427620/6fa5a951-e2c7-4f85-b393-87f748583d15">
-<img width="366" alt="image" src="https://github.com/27priyanshu/DVC-project/assets/95427620/cee236dd-cbe3-4bb0-a712-add6ad8a1be9">
-<img width="960" alt="image" src="https://github.com/27priyanshu/DVC-project/assets/95427620/c1fc95f5-6fe4-4d33-9cf7-499abc0b7f24">
 
+### Plots of n_estimator = 35
+<img width="939" alt="image" src="https://github.com/27priyanshu/DVC-project/assets/95427620/e710bb5d-4b59-47e6-af00-a0477d111700">
+
+<img width="350" alt="image" src="https://github.com/27priyanshu/DVC-project/assets/95427620/9bb4e73e-63bb-45e3-abb9-18cee9a31a0e">
+
+<img width="506" alt="image" src="https://github.com/27priyanshu/DVC-project/assets/95427620/a171ad3b-e076-4b76-81cf-8b1a1e731e4b">
 
 
 In summary, our End-to-End Machine Learning Pipeline Creation using DVC simplifies and enhances the ML development process. By leveraging DVC for data versioning and code management, we ensure reproducibility, collaboration, and efficient tracking of changes throughout the pipeline. This approach makes it easier to develop, deploy, and maintain robust ML models in real-world applications.
