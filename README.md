@@ -48,4 +48,20 @@ Once the model is trained, it's crucial to evaluate its performance. We use DVC 
 
 In summary, our End-to-End Machine Learning Pipeline Creation using DVC simplifies and enhances the ML development process. By leveraging DVC for data versioning and code management, we ensure reproducibility, collaboration, and efficient tracking of changes throughout the pipeline. This approach makes it easier to develop, deploy, and maintain robust ML models in real-world applications.
 
-
+## Commands
+Add Data
+```
+dvc add ./model ./data
+```
+Remove
+```
+dvc remove model.dvc
+```
+Status
+```
+dvc status
+```
+Commit
+```
+dvc commit
+```
