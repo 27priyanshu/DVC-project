@@ -48,20 +48,53 @@ Once the model is trained, it's crucial to evaluate its performance. We use DVC 
 
 In summary, our End-to-End Machine Learning Pipeline Creation using DVC simplifies and enhances the ML development process. By leveraging DVC for data versioning and code management, we ensure reproducibility, collaboration, and efficient tracking of changes throughout the pipeline. This approach makes it easier to develop, deploy, and maintain robust ML models in real-world applications.
 
-## Commands
-Add Data
+## Use Full Commands
+1) Adds files or directories to DVC tracking.
 ```
 dvc add ./model ./data
 ```
-Remove
+2) Removes a DVC-tracked file or directory.
 ```
 dvc remove model.dvc
 ```
-Status
+3) Shows the status of DVC-tracked files, indicating changes.
 ```
 dvc status
 ```
-Commit
+4) Commits changes made to DVC-tracked files.
 ```
 dvc commit
 ```
+5) Pushes data and metadata to the default DVC remote storage.
+```
+dvc push
+```
+6) Pushes data and metadata to a specific remote storage.
+```
+dvc push -r <remote-name>
+```
+7) Pulls data and metadata from the default DVC remote storage.
+```
+dvc pull
+```
+8) Pulls data and metadata from a specific remote storage.
+```
+dvc pull -r <remote-name>
+```
+9) Reproduces the data pipeline by running DVC-managed commands
+```
+dvc repro
+```
+10) Shows the metrics associated with a DVC-tracked data file.
+```
+dvc metrics show
+```
+11) Compares metrics between different versions of a DVC-tracked data file.
+```
+dvc metrics diff
+```
+12) Shows plots generated for DVC-tracked data files.
+```
+dvc plots show
+```
+
